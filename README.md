@@ -18,7 +18,7 @@ The Unified Communications Interface (UCI) aims to democratize the use of differ
 
 ## Requirements :scroll:
 
-[NodeJS](https://nodejs.org/en/download/) and NPM or [yarn]([https://yarnpkg.com/getting-started/install])
+[NodeJS](https://nodejs.org/en/download/) and NPM or [yarn](https://yarnpkg.com/getting-started/install)
 
 ## Installation :walking:
 
@@ -39,7 +39,7 @@ git clone https://github.com/Your_Username/uci-web-channel.git
 Once you have cloned the `uci-web-channel` repository in GitHub, move to that folder first using the change directory command.
 
 ```sh
-# This will change directory to a folder FOSSologyUI
+# This will change directory to a folder uci-web-channel
 cd uci-web-channel
 ```
 
@@ -56,7 +56,7 @@ origin  https://github.com/Your_Username/uci-web-channel.git (fetch)
 origin  https://github.com/Your_Username/uci-web-channel.git (push)
 ```
 
-### 4. Create a new .env file and copy contents from .env.example :open_file_folder:
+### 4. Create a new .env file and copy contents from .env.sample :open_file_folder:
 
 ```sh
 cp .env.sample .env
@@ -67,6 +67,10 @@ The websocket connection URL for the plaground can be used for testing - `wss://
 ### 5. Run it :checkered_flag:
 
 Run `yarn start`
+
+## Designs
+Below are the designs of how output screens will look like. For more detailed view you can checkout the [Figma](https://www.figma.com/file/d8JiwkYJqGYXQaflCyNVzl/UCI-web-channel?node-id=0%3A1) file.
+![Designs](https://user-images.githubusercontent.com/77741561/171156677-0ee016dd-a240-4edc-b2e8-50b08ac06a58.png)
 
 ## Contributing
 
